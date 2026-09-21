@@ -1,0 +1,20 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+const nodes=new Map(),data=new Map(),registered=[];
+function node(key){if(!nodes.has(key))nodes.set(key,{innerHTML:'',textContent:'',hidden:false,value:'',open:false,classList:{add(){},remove(){},toggle(){}},setAttribute(){},removeAttribute(){},addEventListener(){},showModal(){this.open=true},close(){this.open=false},focus(){},scrollIntoView(){}});return nodes.get(key);}
+const document={querySelector:node,querySelectorAll(){return []},addEventListener(){},modelContext:{registerTool(t){registered.push(t)}}};
+const ctx=vm.createContext({document,window:{scrollTo(){},addEventListener(){}},localStorage:{getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v)},Intl,Date,console,setInterval(){},setTimeout(){},clearTimeout(){},AbortController});
+vm.runInContext(fs.readFileSync('dist/app.js','utf8'),ctx);
+const run=s=>vm.runInContext(s,ctx);
+assert.equal(run('filtered().length'),8);
+run("state.high=true;renderList()");assert.equal(run('filtered().length'),4);assert(run('filtered().every(s=>s.battery>=80)'));
+run("state.query='hauptbahnhof';state.high=false;renderList()");assert.equal(run('filtered()[0].id'),'042');
+run("state.query='does-not-exist';renderList()");assert.equal(run('filtered().length'),0);assert.equal(run('state.selected'),null);
+run('resetFilters();reserve("024")');assert.equal(run('state.active.status'),'reserved');assert(data.size>0);
+run('reserve("018")');assert.equal(run('state.active.scooterId'),'024');
+run('startRide()');assert.equal(run('state.active.status'),'riding');assert.equal(run('cost()'),1.25);
+run('state.active.started=Date.now()-61000');assert.equal(run('cost()'),1.5);
+run('finishRide()');assert.equal(run('state.active'),null);assert.equal(run('state.history.length'),1);assert.equal(run('state.history[0].total'),1.5);
+run('reserve("018");cancelReservation()');assert.equal(run('state.active'),null);
+run('reserve("018");state.active.expires=Date.now()-1;expireReservation()');assert.equal(run('state.active'),null);
+assert.equal(registered.length,1);assert.equal(registered[0].name,'find_demo_scooters');assert.equal(registered[0].execute({query:'Mitte',highBattery:true}).scooters.length,2);assert.throws(()=>registered[0].execute({highBattery:'yes'}));assert.throws(()=>registered[0].execute({extra:1}));
+console.log('PASS: search, filters, empty state, reservation, single active ride, timer pricing, completion, history, cancellation, expiry, WebMCP registration and valid/invalid inputs (DOM harness).');

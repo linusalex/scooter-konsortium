@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+
+  /* ─────────────────────────
+Base / Hintergrund
+───────────────────────── */
+
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(98% 0.003 250);
+  --color-base-300: oklch(94% 0.008 250);
+  --color-base-content: oklch(24% 0.025 255);
+
+  /* ─────────────────────────
+Brand / Blau
+───────────────────────── */
+
+  --color-primary: oklch(58% 0.19 250);
+  --color-primary-content: oklch(99% 0.005 250);
+
+  --color-secondary: oklch(65% 0.13 250);
+  --color-secondary-content: oklch(99% 0.005 250);
+
+  --color-accent: oklch(68% 0.15 230);
+  --color-accent-content: oklch(20% 0.035 250);
+
+  /* ─────────────────────────
+Neutral
+───────────────────────── */
+
+  --color-neutral: oklch(32% 0.025 255);
+  --color-neutral-content: oklch(98% 0.003 250);
+
+  /* ─────────────────────────
+Statusfarben
+───────────────────────── */
+
+  --color-info: oklch(65% 0.16 245);
+  --color-info-content: oklch(24% 0.06 245);
+
+  --color-success: oklch(65% 0.16 155);
+  --color-success-content: oklch(24% 0.055 155);
+
+  --color-warning: oklch(78% 0.15 80);
+  --color-warning-content: oklch(25% 0.05 80);
+
+  --color-error: oklch(62% 0.19 25);
+  --color-error-content: oklch(98% 0.005 25);
+
+  /* ─────────────────────────
+Shapes
+───────────────────────── */
+
+  --radius-selector: 0.75rem;
+  --radius-field: 0.625rem;
+  --radius-box: 1rem;
+
+  /* ─────────────────────────
+Sizes
+───────────────────────── */
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* ─────────────────────────
+Borders / Depth
+───────────────────────── */
+
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+/* @theme {
+  --color-primary: hsl(...);
+  --color-surface-100: hsl(...);
+  --color-surface-200: hsl(...);
+  --color-surface-300: hsl(...);
+  --color-surface-content: hsl(...); 
+}*/
+
+.nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.custom-map-marker {
+  width: 40px !important;
+  height: 40px !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+.marker-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  background: white;
+
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.25);
+
+  font-size: 26px;
+}
+
+.marker-icon .material-icons {
+  font-size: 26px;
+  line-height: 1;
+}

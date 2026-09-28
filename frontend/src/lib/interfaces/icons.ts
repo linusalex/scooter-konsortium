@@ -53,6 +53,8 @@ export enum Icons {
   BOLT = 'bolt',
   ROUTE = 'route',
   BATTERY_ALERT = 'battery_alert',
+  ACCOUNT = 'elderly',
+  CHECK = 'check',
 }
 
 export enum IconColors {

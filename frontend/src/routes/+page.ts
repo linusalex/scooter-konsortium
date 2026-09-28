@@ -6,14 +6,14 @@ export const load = () => {
       id: 1,
       distance: 200,
       soc: 95,
-      latidude: 51.1589035 + 0.001,
+      latitude: 51.1589035 + 0.001,
       longitude: 7.0972745 + 0.001,
     },
     {
       id: 2,
       distance: 100,
       soc: 20,
-      latidude: 51.1589035 - 0.01,
+      latitude: 51.1589035 - 0.01,
       longitude: 7.0972745 - 0.01,
     },
   ] satisfies Scooter[];

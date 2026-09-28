@@ -1,19 +1,19 @@
 <script lang="ts">
-	import type { IconColorType, IconType } from '$lib/interfaces/icons';
+  import type { IconColorType, IconType } from '$lib/interfaces/icons';
 
-	type Props = {
-		icon: IconType;
-		tooltipText?: string;
-		color?: IconColorType;
-	};
+  type Props = {
+    icon: IconType;
+    tooltipText?: string;
+    color?: IconColorType | string;
+  };
 
-	let { icon, tooltipText, color }: Props = $props();
+  let { icon, tooltipText, color }: Props = $props();
 </script>
 
 {#if tooltipText === undefined}
-	<i class="material-icons {color}">{icon}</i>
+  <i class="material-icons {color}">{icon}</i>
 {:else}
-	<div class="tooltip tooltip-bottom" data-tip={tooltipText}>
-		<i class="material-icons {color}">{icon}</i>
-	</div>
+  <div class="tooltip tooltip-bottom" data-tip={tooltipText}>
+    <i class="material-icons {color}">{icon}</i>
+  </div>
 {/if}

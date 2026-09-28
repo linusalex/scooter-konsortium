@@ -56,7 +56,7 @@
 
     data.scooters.forEach((el: Scooter) => {
       markerData.push({
-        latitude: el.latidude,
+        latitude: el.latitude,
         longitude: el.longitude,
         icon: Icons.ELECTRIC_SCOOTER,
         color: IconColors.ERROR,
@@ -276,7 +276,7 @@
         currentLocation={{ latidude: location?.latitude, longitude: location?.longitude }}
         scooterButtonOnclick={() => {
           console.log('test');
-          flyToLocation(scooter.latidude, scooter.longitude, 18);
+          flyToLocation(scooter.latitude, scooter.longitude, 18);
           selectedScooter = scooter;
         }}
       />
@@ -331,13 +331,24 @@
                         longitude: location.longitude,
                       },
                       {
-                        latitude: selectedScooter.latidude,
+                        latitude: selectedScooter.latitude,
                         longitude: selectedScooter.longitude,
                       }
                     );
                   }}>Route anzeigen</button
                 >
-                <button class="btn rounded-2xl">Reservieren</button>
+                <button
+                  class="btn rounded-2xl"
+                  onclick={() => {
+                    /**
+                     * When a scooter is reserved, we need to currentTime and the Final time to calculate the price
+                     *
+                     * We need to start and end Location to calculate the distance traveled
+                     *
+                     * And for each object we also need either the entire user or the user id to show the correct purchases
+                     */
+                  }}>Reservieren</button
+                >
               </div>
             </div>
           </div>

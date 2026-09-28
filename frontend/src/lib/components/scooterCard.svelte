@@ -58,7 +58,7 @@
   $effect(() => {
     const latitude = currentLocation?.latidude;
     const longitude = currentLocation?.longitude;
-    const scooterLatitude = scooter?.latidude;
+    const scooterLatitude = scooter?.latitude;
     const scooterLongitude = scooter?.longitude;
 
     if (

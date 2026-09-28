@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Icons } from '$lib/interfaces/icons';
+  import Icon from './icon.svelte';
 </script>
 
 <div class="h-[5vw]">
@@ -48,6 +50,10 @@
 			</div> -->
       <ul class="menu menu-horizontal"></ul>
     </div>
-    <div class="navbar-end"></div>
+    <div class="navbar-end pr-3">
+      <a href="./user" class="btn text-xl btn-ghost border-gray-200/80">
+        <Icon icon={Icons.ACCOUNT} />
+      </a>
+    </div>
   </div>
 </div>

@@ -1,0 +1,865 @@
+{
+  "data": [
+    {
+      "TaskID": 1,
+      "TaskName": "Projekt starten und Aufgaben verteilen",
+      "StartDate": "2026-09-07T06:00:00.000Z",
+      "EndDate": "2026-09-07T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Projektstart, Aufgabenverteilung und Analyse des Lastenhefts.</p><p>Angepasster Termin: 07.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 2,
+      "TaskName": "Backend- und Datenbankanforderungen analysieren",
+      "StartDate": "2026-09-07T06:00:00.000Z",
+      "EndDate": "2026-09-07T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Projektstart, Aufgabenverteilung und Analyse des Lastenhefts.</p><p>Angepasster Termin: 07.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 3,
+      "TaskName": "Lastenheft und fachliche Anforderungen analysieren",
+      "StartDate": "2026-09-07T06:00:00.000Z",
+      "EndDate": "2026-09-07T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Projektstart, Aufgabenverteilung und Analyse des Lastenhefts.</p><p>Angepasster Termin: 07.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 4,
+      "TaskName": "Frontend- und Kartenanforderungen analysieren",
+      "StartDate": "2026-09-07T06:00:00.000Z",
+      "EndDate": "2026-09-07T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Projektstart, Aufgabenverteilung und Analyse des Lastenhefts.</p><p>Angepasster Termin: 07.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 5,
+      "TaskName": "Pflichtenheft abstimmen und Projektplan festlegen",
+      "StartDate": "2026-09-14T06:00:00.000Z",
+      "EndDate": "2026-09-14T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "1FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung und Abstimmung des Pflichtenhefts.</p><p>Angepasster Termin: 14.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 6,
+      "TaskName": "Backend-, Datenbank- und API-Anforderungen beschreiben",
+      "StartDate": "2026-09-14T06:00:00.000Z",
+      "EndDate": "2026-09-14T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "2FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung und Abstimmung des Pflichtenhefts.</p><p>Angepasster Termin: 14.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 7,
+      "TaskName": "Funktionale Anforderungen und Abnahmekriterien formulieren",
+      "StartDate": "2026-09-14T06:00:00.000Z",
+      "EndDate": "2026-09-14T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "3FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung und Abstimmung des Pflichtenhefts.</p><p>Angepasster Termin: 14.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 8,
+      "TaskName": "Frontend-Konzept und UI-Anforderungen beschreiben",
+      "StartDate": "2026-09-14T06:00:00.000Z",
+      "EndDate": "2026-09-14T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "4FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung und Abstimmung des Pflichtenhefts.</p><p>Angepasster Termin: 14.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 9,
+      "TaskName": "Softwarearchitektur und Schnittstellen abstimmen",
+      "StartDate": "2026-09-21T06:00:00.000Z",
+      "EndDate": "2026-09-21T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "5FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Datenbankentwurf, ER-Modell und Softwarearchitektur.</p><p>Angepasster Termin: 21.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 10,
+      "TaskName": "ER-Modell und relationales Datenbankschema entwerfen",
+      "StartDate": "2026-09-21T06:00:00.000Z",
+      "EndDate": "2026-09-21T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "6FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Datenbankentwurf, ER-Modell und Softwarearchitektur.</p><p>Angepasster Termin: 21.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 11,
+      "TaskName": "Datenmodell und Anwendungsfälle fachlich prüfen",
+      "StartDate": "2026-09-21T06:00:00.000Z",
+      "EndDate": "2026-09-21T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "7FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Datenbankentwurf, ER-Modell und Softwarearchitektur.</p><p>Angepasster Termin: 21.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 12,
+      "TaskName": "Frontend-Komponenten und API-Anbindung entwerfen",
+      "StartDate": "2026-09-21T06:00:00.000Z",
+      "EndDate": "2026-09-21T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "8FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Datenbankentwurf, ER-Modell und Softwarearchitektur.</p><p>Angepasster Termin: 21.09.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 13,
+      "TaskName": "Entwicklungsumgebung und Versionsverwaltung koordinieren",
+      "StartDate": "2026-09-28T06:00:00.000Z",
+      "EndDate": "2026-09-28T10:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "9FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung der Datenbank und Backend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 08:00 bis 12:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 14,
+      "TaskName": "SQL-Datenbank und ASP.NET-Core-Grundstruktur erstellen",
+      "StartDate": "2026-09-28T06:00:00.000Z",
+      "EndDate": "2026-09-28T10:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "10FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung der Datenbank und Backend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 08:00 bis 12:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 15,
+      "TaskName": "Testdaten und fachliche Prüffälle vorbereiten",
+      "StartDate": "2026-09-28T06:00:00.000Z",
+      "EndDate": "2026-09-28T10:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "11FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung der Datenbank und Backend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 08:00 bis 12:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 16,
+      "TaskName": "UI-Mockups und Komponentenstruktur vorbereiten",
+      "StartDate": "2026-09-28T06:00:00.000Z",
+      "EndDate": "2026-09-28T10:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "12FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Erstellung der Datenbank und Backend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 08:00 bis 12:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 17,
+      "TaskName": "Frontend-Konzept und Schnittstellenabstimmung prüfen",
+      "StartDate": "2026-09-28T11:00:00.000Z",
+      "EndDate": "2026-09-28T15:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "13FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Entwicklung der Frontend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 13:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 18,
+      "TaskName": "API-Verträge und Beispieldaten für das Frontend bereitstellen",
+      "StartDate": "2026-09-28T11:00:00.000Z",
+      "EndDate": "2026-09-28T15:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "14FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Entwicklung der Frontend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 13:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 19,
+      "TaskName": "Bedienabläufe, Formulare und UI-Texte prüfen",
+      "StartDate": "2026-09-28T11:00:00.000Z",
+      "EndDate": "2026-09-28T15:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "15FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Entwicklung der Frontend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 13:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 20,
+      "TaskName": "Svelte-Grundstruktur mit Tailwind CSS und DaisyUI erstellen",
+      "StartDate": "2026-09-28T11:00:00.000Z",
+      "EndDate": "2026-09-28T15:00:00.000Z",
+      "Duration": 0.5,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "16FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Entwicklung der Frontend-Grundstruktur.</p><p>Angepasster Termin: 28.09.2026, 13:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 21,
+      "TaskName": "Integration von Frontend, Backend und Datenbank koordinieren",
+      "StartDate": "2026-10-05T06:00:00.000Z",
+      "EndDate": "2026-10-05T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "17FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Backend- und API-Funktionen.</p><p>Angepasster Termin: 05.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 22,
+      "TaskName": "API-Funktionen für Firmen, Scooter und Ladepunkte implementieren",
+      "StartDate": "2026-10-05T06:00:00.000Z",
+      "EndDate": "2026-10-05T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "18FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Backend- und API-Funktionen.</p><p>Angepasster Termin: 05.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 23,
+      "TaskName": "Geschäftsregeln und Eingabeprüfungen fachlich prüfen",
+      "StartDate": "2026-10-05T06:00:00.000Z",
+      "EndDate": "2026-10-05T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "19FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Backend- und API-Funktionen.</p><p>Angepasster Termin: 05.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 24,
+      "TaskName": "Verwaltungsansichten und Formulare an die API anbinden",
+      "StartDate": "2026-10-05T06:00:00.000Z",
+      "EndDate": "2026-10-05T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "20FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Backend- und API-Funktionen.</p><p>Angepasster Termin: 05.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 25,
+      "TaskName": "Integration von Simulation, Ladevorgang und Karte prüfen",
+      "StartDate": "2026-10-12T06:00:00.000Z",
+      "EndDate": "2026-10-12T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "21FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Scooter-Simulation und Kartenansicht.</p><p>Angepasster Termin: 12.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 26,
+      "TaskName": "Fahrtsimulation, Ladezustand und Ladepunktlogik implementieren",
+      "StartDate": "2026-10-12T06:00:00.000Z",
+      "EndDate": "2026-10-12T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "22FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Scooter-Simulation und Kartenansicht.</p><p>Angepasster Termin: 12.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 27,
+      "TaskName": "Simulationsfälle und Kapazitätsregeln fachlich prüfen",
+      "StartDate": "2026-10-12T06:00:00.000Z",
+      "EndDate": "2026-10-12T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "23FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Scooter-Simulation und Kartenansicht.</p><p>Angepasster Termin: 12.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 28,
+      "TaskName": "Geoapify-Karte und Simulationsbedienung implementieren",
+      "StartDate": "2026-10-12T06:00:00.000Z",
+      "EndDate": "2026-10-12T15:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "24FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der Scooter-Simulation und Kartenansicht.</p><p>Angepasster Termin: 12.10.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 29,
+      "TaskName": "Vollständigkeit der Auswertungen und Fehlerbehandlung prüfen",
+      "StartDate": "2026-11-02T07:00:00.000Z",
+      "EndDate": "2026-11-02T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "25FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der SQL-Auswertungen und Fehlerbehandlung.</p><p>Angepasster Termin: 02.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 30,
+      "TaskName": "SQL-Auswertungen FA42 bis FA46 und Backend-Fehlerbehandlung umsetzen",
+      "StartDate": "2026-11-02T07:00:00.000Z",
+      "EndDate": "2026-11-02T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "26FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der SQL-Auswertungen und Fehlerbehandlung.</p><p>Angepasster Termin: 02.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 31,
+      "TaskName": "Auswertungsergebnisse und Fehlermeldungen fachlich prüfen",
+      "StartDate": "2026-11-02T07:00:00.000Z",
+      "EndDate": "2026-11-02T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "27FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der SQL-Auswertungen und Fehlerbehandlung.</p><p>Angepasster Termin: 02.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 32,
+      "TaskName": "Auswertungen anzeigen und UI-Fehlerbehandlung umsetzen",
+      "StartDate": "2026-11-02T07:00:00.000Z",
+      "EndDate": "2026-11-02T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "28FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Implementierung der SQL-Auswertungen und Fehlerbehandlung.</p><p>Angepasster Termin: 02.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 33,
+      "TaskName": "Systemtests koordinieren und Fehlerkorrekturen nachverfolgen",
+      "StartDate": "2026-11-09T07:00:00.000Z",
+      "EndDate": "2026-11-09T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "29FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Durchführung der Tests und Fehlerkorrekturen.</p><p>Angepasster Termin: 09.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 34,
+      "TaskName": "Backend, API, Datenbank und Simulationslogik testen und korrigieren",
+      "StartDate": "2026-11-09T07:00:00.000Z",
+      "EndDate": "2026-11-09T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "30FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Durchführung der Tests und Fehlerkorrekturen.</p><p>Angepasster Termin: 09.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 35,
+      "TaskName": "Abnahmetests durchführen und Testergebnisse dokumentieren",
+      "StartDate": "2026-11-09T07:00:00.000Z",
+      "EndDate": "2026-11-09T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "31FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Durchführung der Tests und Fehlerkorrekturen.</p><p>Angepasster Termin: 09.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 36,
+      "TaskName": "Frontend, Kartenansicht und responsive Darstellung testen und korrigieren",
+      "StartDate": "2026-11-09T07:00:00.000Z",
+      "EndDate": "2026-11-09T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "32FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Durchführung der Tests und Fehlerkorrekturen.</p><p>Angepasster Termin: 09.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 37,
+      "TaskName": "Abschlussprüfung koordinieren und Gesamtprojekt abgeben",
+      "StartDate": "2026-11-16T07:00:00.000Z",
+      "EndDate": "2026-11-16T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "211",
+      "Predecessor": "33FS",
+      "resources": [
+        {
+          "resourceId": "Justin",
+          "resourceName": "Justin",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Fertigstellung der Dokumentation, Abschlussprüfung und Abgabe.</p><p>Angepasster Termin: 16.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 38,
+      "TaskName": "Backend-, API- und Datenbankdokumentation fertigstellen",
+      "StartDate": "2026-11-16T07:00:00.000Z",
+      "EndDate": "2026-11-16T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "31",
+      "Predecessor": "34FS",
+      "resources": [
+        {
+          "resourceId": "Linus",
+          "resourceName": "Linus",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Fertigstellung der Dokumentation, Abschlussprüfung und Abgabe.</p><p>Angepasster Termin: 16.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 39,
+      "TaskName": "Projektdokumentation und Abnahmeunterlagen fertigstellen",
+      "StartDate": "2026-11-16T07:00:00.000Z",
+      "EndDate": "2026-11-16T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "271",
+      "Predecessor": "35FS",
+      "resources": [
+        {
+          "resourceId": "Marius",
+          "resourceName": "Marius",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Fertigstellung der Dokumentation, Abschlussprüfung und Abgabe.</p><p>Angepasster Termin: 16.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    },
+    {
+      "TaskID": 40,
+      "TaskName": "Frontend-Dokumentation und UI-Abschlussprüfung fertigstellen",
+      "StartDate": "2026-11-16T07:00:00.000Z",
+      "EndDate": "2026-11-16T16:00:00.000Z",
+      "Duration": 1,
+      "Progress": 0,
+      "color": "121",
+      "Predecessor": "36FS",
+      "resources": [
+        {
+          "resourceId": "Sam",
+          "resourceName": "Sam",
+          "unit": 100
+        }
+      ],
+      "info": "<p>Inhaltliche Grundlage: Pflichtenheft, Abschnitte 2.5 und 6.1. Phase: Fertigstellung der Dokumentation, Abschlussprüfung und Abgabe.</p><p>Angepasster Termin: 16.11.2026, 08:00 bis 17:00 Uhr (Europe/Berlin). Zeitraum nach Nutzerangabe: 07.09.2026 bis 16.11.2026, ausschließlich montags. Herbstferien NRW vom 17.10.2026 bis 31.10.2026 sind arbeitsfrei. Quelle der Ferien: https://bass.schule.nrw/191.htm.</p><p>Planungsannahme: Teilaufgabe und Zuständigkeit nach Projektrolle. Backend- und Frontend-Grundstruktur sind am 28.09. vormittags bzw. nachmittags gebündelt, damit alle 40 Aufgaben auf neun Arbeitsmontage passen. Abhängigkeiten verknüpfen die Aufgaben je Person ohne zusätzlichen Arbeitstagsabstand. Fortschritt bleibt mangels Statusangaben unverändert bei 0 %.</p>",
+      "DurationUnit": "day"
+    }
+  ],
+  "resources": [
+    {
+      "resourceId": "Justin",
+      "resourceName": "Justin"
+    },
+    {
+      "resourceId": "Linus",
+      "resourceName": "Linus"
+    },
+    {
+      "resourceId": "Marius",
+      "resourceName": "Marius"
+    },
+    {
+      "resourceId": "Sam",
+      "resourceName": "Sam"
+    }
+  ],
+  "projectStartDate": "2026-09-06T22:00:00.000Z",
+  "projectEndDate": "2026-11-16T22:00:00.000Z",
+  "advanced": {
+    "columns": [
+      {
+        "name": "Task ID",
+        "width": "70",
+        "show": true
+      },
+      {
+        "name": "Task Name",
+        "width": "350",
+        "show": true
+      },
+      {
+        "name": "Start Date",
+        "width": "130",
+        "show": false
+      },
+      {
+        "name": "End Date",
+        "width": "130",
+        "show": false
+      },
+      {
+        "name": "Duration",
+        "width": "130",
+        "show": false
+      },
+      {
+        "name": "Progress %",
+        "width": "150",
+        "show": false
+      },
+      {
+        "name": "Dependency",
+        "width": "150",
+        "show": false
+      },
+      {
+        "name": "Resources",
+        "width": "200",
+        "show": false
+      },
+      {
+        "name": "Color",
+        "width": "100",
+        "show": false
+      },
+      {
+        "name": "Notes",
+        "width": "200",
+        "show": false
+      }
+    ],
+    "zoomLevel": 0,
+    "timezone": "Europe/Berlin",
+    "timezoneOffset": -60,
+    "dependencyConflict": "Add Offset to Dependency",
+    "dateFormat": "dd.MM.yyyy",
+    "timeFormat": "HH:mm",
+    "firstDayOfWeek": 1,
+    "workWeek": [
+      "Monday"
+    ],
+    "workTime": [
+      {
+        "from": 8,
+        "to": 12
+      },
+      {
+        "from": 13,
+        "to": 17
+      }
+    ],
+    "holidays": [
+      {
+        "from": "2026-10-17",
+        "to": "2026-10-31",
+        "label": "Herbstferien NRW"
+      }
+    ]
+  }
+}
